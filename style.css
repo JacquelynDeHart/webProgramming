@@ -2,6 +2,7 @@
     font-family: verdana, helvetica, sans-serif;
     padding: 5px;
     margin: 0;
+    background-color: #555654;
 }
 
 a.nodec {
@@ -9,17 +10,17 @@ a.nodec {
 }
 
 a:hover {
-    text-decoration: underline, italic;
+    text-decoration: underline;
 }
 
 li em {
     font-weight: bold, underline;
-    color: #A4B6F9
+    color: #ffffff
 }
 
 h1, em {
     text-decoration: underline;
-    color: #A4B6F9;
+    color: #ffffff;
 }
 [data-tab-content]{
     display:none;
@@ -44,7 +45,7 @@ h1, em {
 }
 
     .tab:hover {
-        background: #8F8C84;
+        background: #ffffff;
         text-decoration: underline;
     }
 
