@@ -15,12 +15,12 @@ a:hover {
 
 li em {
     font-weight: bold, underline;
-    color: #ffffff
+    color: #000;
 }
 
 h1, em {
     text-decoration: underline;
-    color: #ffffff;
+    color: #000;
 }
 [data-tab-content]{
     display:none;
@@ -44,17 +44,21 @@ h1, em {
 
 }
 
-    .tab:hover {
-        background: #ffffff;
+.tab:hover {
+        background: #aaabaa;
         text-decoration: underline;
     }
 
-    .tab.active {
-        background: #8F8C84;
-        color: #9BA8DB;
+.tab.active {
+        background: #6A6B69;
+        color: #000;
     }
 
-    .tab-content{
+.tab-content{
         margin-left: 20px;
         margin-right: 20px;
     }
+
+a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
